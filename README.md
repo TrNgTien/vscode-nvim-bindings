@@ -1,5 +1,8 @@
 # Usage:
 
+Note: Prerequisites:
+- Must have Vim Extension installed
+
 Press: `cmd+shift+p`
 
 ## Step 1:
