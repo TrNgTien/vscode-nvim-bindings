@@ -14,6 +14,34 @@
     "breadcrumbs.enabled": false,
     "update.showReleaseNotes": false,
     "zenMode.hideLineNumbers": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorCustomizations": {
+        "editorUnnecessaryCode.border": "#e0bb25",
+        "editorError.foreground": "#ff0000",
+        "editorWarning.foreground": "#ffff00",
+        "editorInfo.foreground": "#00ff00",
+        "editorHint.foreground": "#0000ff"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "nest",
+    "terminal.integrated.defaultProfile.osx": "tmux",
+    "workbench.activityBar.location": "hidden",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -392,26 +420,5 @@
                 "0"
             ]
         }
-    ],
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "go.toolsManagement.autoUpdate": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.colorCustomizations": {
-        "editorError.foreground": "#ff0000",
-        "editorWarning.foreground": "#ffff00",
-        "editorInfo.foreground": "#00ff00",
-        "editorHint.foreground": "#0000ff"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.activeIconPack": "nest",
-    "terminal.integrated.defaultProfile.osx": "tmux",
-    "workbench.activityBar.location": "hidden"
+    ]
 }

@@ -61,5 +61,22 @@
         "key": "tab",
         "command": "list.select",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    // copy the file
+    {
+        "key": "c",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    // cut the file
+    {
+        "key": "x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     }
 ]
