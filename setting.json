@@ -14,7 +14,7 @@
     "breadcrumbs.enabled": false,
     "update.showReleaseNotes": false,
     "zenMode.hideLineNumbers": false,
-    "workbench.colorTheme": "Atom One Dark",
+    "editor.autoClosingBrackets": "always",
     "workbench.colorCustomizations": {
         "editorUnnecessaryCode.border": "#e0bb25",
         "editorError.foreground": "#ff0000",
@@ -420,5 +420,7 @@
                 "0"
             ]
         }
-    ]
+    ],
+    "database-client.autoSync": true,
+    "workbench.colorTheme": "Visual Studio Dark"
 }
