@@ -8,7 +8,7 @@
     "window.zoomLevel": 0.05,
     "workbench.statusBar.visible": true,
     "editor.linkedEditing": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
     "editor.suggest.insertMode": "replace",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
